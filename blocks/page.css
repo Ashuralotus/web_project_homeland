@@ -1,0 +1,15 @@
+.page {
+    display: grid;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: #2A2C2F;
+    /*grid-template-areas: "header"
+                         "lead"
+                         "intro"
+                         "view"
+                         "places"
+                         "cover"
+                         "footer";
+    grid-template-rows: 0fr 0.1fr 0.5fr 0.5fr 4fr 0.1fr 0.1fr;*/
+}

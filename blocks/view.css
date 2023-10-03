@@ -1,0 +1,45 @@
+.view {
+    grid-area: view;
+    height: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin: 50px auto;
+    margin-bottom: 500px;
+}
+
+.view__img {
+    width: 100%;
+    height: 213px;
+}
+
+@media screen and (max-width: 425px){
+    
+    .view {
+        width: 288px;
+        grid-template-columns: auto;
+        margin-top: 0px;
+        gap: 16px;
+    }
+
+    .view__img {
+        width: 288px;
+        height: 216px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    
+    .view {
+        width: 720px;
+        /*height: 1104px;*/
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        gap: 16px;
+    }
+
+    .view__img {
+        width: 352px;
+        height: 264px;
+    }
+}
