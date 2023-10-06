@@ -24,3 +24,9 @@ media screen and (max-width: 425px){
 }
 
 code diatas sebagai contohnya agar setiap element dapat berfungsi dengan baik mengikuti lebar layar. Ketika layar berada di ukuran 425 atau bawahnya yang awal mulanya ukuran 426, layar akan merubah style web ketika memasuki ukuran 425.
+
+#####
+
+Jika ingin melihat hasilnya silahkan kunjungi [https://ashuralotus.github.io/web_project_homeland/]
+
+jika ada yang ingin ditanyakan silahkan melalui gmail : adityafauzi25@gmail.com
