@@ -23,8 +23,6 @@
 }
 
 .cover h6 {
-    width: 205px;
-    /*height: 70px;*/
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -42,6 +40,23 @@
     position: relative;
     left: -10px;
     top: -500px;
+}
+
+.cover__link {
+    width: auto;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cover__link p,a {
+    width: 264px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF; 
 }
 
 @media screen and (max-width: 425px){
@@ -87,6 +102,17 @@
         position: relative;
         left: 0px;
         top: -220px;
+    }
+
+    .cover__link p,a {
+        width: 264px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF; 
     }
 }
 
