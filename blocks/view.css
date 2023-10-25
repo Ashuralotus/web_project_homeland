@@ -1,6 +1,7 @@
 .view {
     grid-area: view;
     height: 0px;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 16px;
@@ -9,29 +10,27 @@
 }
 
 .view__img {
-    width: 100%;
+    max-width: 288px;
     height: 213px;
 }
 
 @media screen and (max-width: 425px){
     
     .view {
-        width: 288px;
         grid-template-columns: auto;
         margin-top: 0px;
         gap: 16px;
     }
 
     .view__img {
-        width: 288px;
-        height: 216px;
+        max-width: 288px;
+        margin: auto;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     
     .view {
-        width: 720px;
         /*height: 1104px;*/
         grid-template-columns: 1fr 1fr;
         margin: auto;
@@ -39,7 +38,7 @@
     }
 
     .view__img {
-        width: 352px;
+        max-width: 352px;
         height: 264px;
     }
 }

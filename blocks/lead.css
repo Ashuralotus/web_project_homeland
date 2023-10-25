@@ -1,18 +1,19 @@
 .lead {
+    width: 100%;
     grid-area: lead;
     margin: auto;
 }
 
 .lead__img {
-    width: 984px;
+    width: 100%;
     min-width: 100%;
     margin-top: 64px;
     filter: grayscale(1);
 }
 
 .lead__title {
+    max-width: 793px;
     font-family: 'Inter', sans-serif;
-    width: 793px;
     margin: 50px auto 32px auto;
     font-weight: 900;
     font-size: 96px;
@@ -23,7 +24,7 @@
 
 .lead__subtitle {
     font-family: 'Inter', sans-serif;
-    width: 720px;
+    max-width: 720px;
     margin: auto;
     font-style: normal;
     font-weight: 400;
@@ -36,16 +37,16 @@
 @media screen and (max-width: 425px){
     
     .lead {
-        width: 319px;
+        width: 100%;
+        min-width: auto;
     }
 
     .lead__img {
-        width: 319px;
+        width: 100%;
         margin-top: 20px;
     }
 
     .lead__title {
-        width: 223px;
         font-family: Inter;
         font-size: 40px;
         font-weight: 900;
@@ -57,7 +58,6 @@
     }
 
     .lead__subtitle {
-        width: 260px;
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
@@ -71,17 +71,16 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
     
     .lead {
-        width: 720px;
+        width: 100%;
     }
 
     .lead__img {
         width: 100%;
-        height: 480px;
+        height: 100%;
         margin-top: 40px;
     }
 
     .lead__title {
-        width: 537px;
         /*height: 400px;*/
         font-family: Inter;
         font-size: 96px;
@@ -93,7 +92,6 @@
     }
 
     .lead__subtitle {
-        width: 720px;
         /*height: 72px;*/
         font-family: Inter;
         font-size: 30px;

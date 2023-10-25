@@ -1,11 +1,12 @@
 .intro {
     grid-area: intro;
-    width: 980px;
+    width: 100%;
+    max-width: 984px;
     margin: auto;
 }
 
 .intro__title {
-    width: 883px;
+    max-width: 883px;
     /*height: 116px;*/
     font-family: 'Inter';
     font-style: normal;
@@ -16,7 +17,7 @@
 }
 
 .intro__subtitle {
-    width: 655px;
+    max-width: 655px;
     /*height: 140px;*/
     margin-top: 40px;
     font-family: 'Inter';
@@ -41,7 +42,7 @@
 }
 
 .intro__story {
-    width: 635px;
+    max-width: 635px;
     /*height: 208px;*/
     margin-top: 8px;
     font-family: 'Inter';
@@ -55,11 +56,11 @@
 @media screen and (max-width: 425px){
     
     .intro {
-        width: 304px;
+        width: 100%;
+        max-width: 304px;
     }
 
     .intro__title {
-        width: 304px;
         /*height: 175px;*/
         font-family: Inter;
         font-size: 32px;
@@ -71,7 +72,6 @@
     }
 
     .intro__subtitle {
-        width: 288px;
         /*height: 300px;*/
         font-family: Inter;
         font-size: 20px;
@@ -84,7 +84,6 @@
     }
 
     .intro__sign {
-        width: 288px;
         /*height: 34px;*/
         font-family: Inter;
         font-size: 20px;
@@ -96,8 +95,6 @@
     }
 
     .intro__story {
-        width: 288px;
-        /*height: 432px;*/
         font-family: Inter;
         font-size: 15px;
         font-weight: 400;
@@ -111,11 +108,11 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
 
     .intro {
-        width: 720px;
+        width: 100%;
+        max-width: 720px;
     }
 
     .intro__title {
-        width: 720px;
         /*height: 232px;*/
         font-family: Inter;
         font-size: 54px;
@@ -127,7 +124,6 @@
     }
 
     .intro__subtitle {
-        width: 720px;
         /*height: 170px;*/
         font-family: Inter;
         font-size: 24px;
@@ -139,7 +135,6 @@
     }
 
     .intro__sign {
-        width: 720px;
         /*height: 34px;*/
         font-family: Inter;
         font-size: 24px;
@@ -151,7 +146,6 @@
     }
 
     .intro__story {
-        width: 720px;
         /*height: 208px;*/
         font-family: Inter;
         font-size: 16px;
